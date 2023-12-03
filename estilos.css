@@ -31,8 +31,10 @@ html {
 }
 
 .nav-link:hover {
-  color: #fff;
+  color: rgb(255, 193, 7);
   font-style: oblique;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .caja11 {
@@ -240,16 +242,35 @@ section {
 
 /*Formulario de Contacto*/
 .section {
-  background-image: url(/img/Fondocontacto.png);
+  background-image: url(/img/dogjum.png);
   background-size: cover;
   background-position: center;
-  padding: 30px;
+  padding: 150px;
 }
 
 .container {
   background-color: #fff;
   border-radius: 15px;
   border: 2px solid #000;
+}
+
+/*preguntas frecuentes*/
+/*$accordion-button-color: white*/
+.accordion {
+  padding: 50px 170px 50px 170px;
+}
+
+.accordion-button {
+  background-color: orange;
+  color: white;
+}
+
+.accordion-header {
+  padding: 15px 15px;
+}
+
+.accordion-item {
+  border: none;
 }
 
 /*Footer*/
