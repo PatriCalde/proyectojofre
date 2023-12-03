@@ -36,10 +36,10 @@ html {
 }
 
 .nav-link:hover {
-    color:rgb(255,193,7);
+    color: rgb(255, 193, 7);
     font-style: oblique;
     font-weight: bold;
-    text-decoration:underline;
+    text-decoration: underline;
 
 
 
@@ -302,36 +302,11 @@ section {
     border: 2px solid #000;
 }
 
-/*preguntas frecuentes*/ 
-
-/*$accordion-button-color: white*/
+/*preguntas frecuentes*/
 
 
-
-.accordion{
-    padding: 50px 170px 50px 170px;}
-   
-    
-
-
-
-.accordion-button {        
-    background-color: orange;     
-    color: white;  
-    
-}
-.accordion-header{
-    padding: 15px 15px;
-                
-}
-
-.accordion-item{
-    border: none;
-    
-}
-
+ 
 /*Footer*/
-
 footer {
 
     background-image: url(/img/patitas1.jpg);
@@ -406,7 +381,7 @@ footer p {
     }
 
 
-    
+
     .fa-brands {
 
         font-size: 30px;

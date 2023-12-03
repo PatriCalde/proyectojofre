@@ -255,24 +255,6 @@ section {
 }
 
 /*preguntas frecuentes*/
-/*$accordion-button-color: white*/
-.accordion {
-  padding: 50px 170px 50px 170px;
-}
-
-.accordion-button {
-  background-color: orange;
-  color: white;
-}
-
-.accordion-header {
-  padding: 15px 15px;
-}
-
-.accordion-item {
-  border: none;
-}
-
 /*Footer*/
 footer {
   background-image: url(/img/patitas1.jpg);
