@@ -285,6 +285,36 @@ section {
     transform: scale(0.9);
 }
 
+/*Cards Hoteles*/
+
+
+.container-card {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.cards {
+    height: 400px;
+    width: 30%;
+    background-color: #fff;
+    text-align: center;
+    border-right: 2px solid rgba(255, 166, 0, 0.807);
+    
+}
+
+
+.card-img-15{
+    height: 200px;
+    background-image: url(./img/visionn.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
 /*Formulario de Contacto*/
 
 
@@ -303,9 +333,44 @@ section {
 }
 
 /*preguntas frecuentes*/
+.accordion{
+    padding: 70px 175px;
+    
+}
+
+.accordion-item{
+
+    padding: 10px;
+    border: none;
+    
+}
+.accordion-button{
+
+    background-color: orange;
+    
+}
+
+.accordion-body{
+    border: 1px solid rgba(255, 166, 0, 0.456);
+    border-bottom: 3px solid orange;
+}
+
+/*maps*/
+
+.map-container{
+  overflow:hidden;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:650px;
+  width:100%;
+  position:absolute;
+}
 
 
- 
 /*Footer*/
 footer {
 
