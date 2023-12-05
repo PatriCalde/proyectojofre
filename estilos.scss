@@ -6,6 +6,15 @@ font-family: 'Lato', sans-serif;
 font-family: 'Quicksand', sans-serif;
 */
 
+/*Paleta de colores*/
+
+$color-one: #fff;
+$color-two: black;
+$color-three:red;
+
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -27,7 +36,7 @@ html {
 }
 
 .navbar a {
-    color: #000;
+    color:$color-two;
 }
 
 .nav-link {
@@ -117,7 +126,7 @@ strong {
     position: relative;
     animation: mymove 5s infinite;
     width: 100%;
-    color: #fff;
+    color: $color-one;
 }
 
 
@@ -199,7 +208,7 @@ section {
 .titulo-equipo {
     text-align: center;
     margin: 20px;
-    color: #000;
+    color:$color-two;
     font-size: 35px;
     font-weight: bolder;
 }
@@ -289,18 +298,25 @@ section {
 
 
 .container-card {
-    height: 500px;
+
+    height: auto;
     width: 100%;
-    background-color: white;
+    background-color:$color-one;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 35px;
     
 }
 
 .cards {
-    height: 400px;
-    width: 30%;
+    height: 490px;
+    width: 230px;
     background-color: #fff;
     text-align: center;
-    border-right: 2px solid rgba(255, 166, 0, 0.807);
+    border: 2px solid rgba(255, 166, 0, 0.807);
     
 }
 
@@ -327,7 +343,7 @@ section {
 
 .container {
 
-    background-color: #fff;
+    background-color: $color-one;
     border-radius: 15px;
     border: 2px solid #000;
 }
@@ -385,7 +401,7 @@ footer {
 
 footer p {
 
-    color: #fff;
+    color: $color-one;
 }
 
 .footer_section {
@@ -398,7 +414,7 @@ footer p {
 
 .footer_section_title {
 
-    color: #fff;
+    color: $color-one;
     margin-bottom: 15px;
     font-weight: bolder;
 
@@ -407,7 +423,7 @@ footer p {
 
 .footer_section_li {
 
-    color: #fff;
+    color: $color-one;
     list-style-type: none;
 
 }
@@ -415,13 +431,13 @@ footer p {
 .footer_section_li a {
 
     text-decoration: none;
-    color: #fff;
+    color: $color-one;
 
 }
 
 .fa-brands {
 
-    color: #000;
+    color:$color-two;
 
 }
 
@@ -438,6 +454,14 @@ footer p {
 
 @media(min-width:1024px) {
 
+    
+    .cards{
+        width: 30%;
+        height: 450px;
+        border-right: 2px solid rgba(255, 166, 0, 0.807);
+        
+    }
+    
     footer {
         display: flex;
         flex-wrap: wrap;
@@ -450,7 +474,7 @@ footer p {
     .fa-brands {
 
         font-size: 30px;
-        color: #fff;
+        color: $color-one;
     }
 
     .fa-instagram:hover {

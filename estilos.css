@@ -4,6 +4,7 @@ font-family: 'Edu TAS Beginner', cursive;
 font-family: 'Lato', sans-serif;
 font-family: 'Quicksand', sans-serif;
 */
+/*Paleta de colores*/
 * {
   margin: 0px;
   padding: 0px;
@@ -23,7 +24,7 @@ html {
 }
 
 .navbar a {
-  color: #000;
+  color: black;
 }
 
 .nav-link {
@@ -163,7 +164,7 @@ section {
 .titulo-equipo {
   text-align: center;
   margin: 20px;
-  color: #000;
+  color: black;
   font-size: 35px;
   font-weight: bolder;
 }
@@ -242,17 +243,23 @@ section {
 
 /*Cards Hoteles*/
 .container-card {
-  height: 500px;
+  height: auto;
   width: 100%;
-  background-color: white;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 35px;
 }
 
 .cards {
-  height: 400px;
-  width: 30%;
+  height: 490px;
+  width: 230px;
   background-color: #fff;
   text-align: center;
-  border-right: 2px solid rgba(255, 166, 0, 0.807);
+  border: 2px solid rgba(255, 166, 0, 0.807);
 }
 
 .card-img-15 {
@@ -348,7 +355,7 @@ footer p {
 }
 
 .fa-brands {
-  color: #000;
+  color: black;
 }
 
 @media (min-width: 678px) {
@@ -361,6 +368,11 @@ footer p {
   }
 }
 @media (min-width: 1024px) {
+  .cards {
+    width: 30%;
+    height: 450px;
+    border-right: 2px solid rgba(255, 166, 0, 0.807);
+  }
   footer {
     display: flex;
     flex-wrap: wrap;
