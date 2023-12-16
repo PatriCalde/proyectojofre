@@ -89,6 +89,9 @@ strong {
 .jumbotron {
   background-position: center;
   background-size: cover;
+  background-image: url(/img/dogjum.png);
+  height: 100px;
+  margin-top: 20px;
 }
 
 .text-black {
