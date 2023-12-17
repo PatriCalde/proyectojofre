@@ -37,7 +37,7 @@ html {
 }
 
 .navbar a {
-    color:$color-two;
+    color: $color-two;
 }
 
 .nav-link {
@@ -63,13 +63,13 @@ html {
 
 .caja11 h1 {
 
-    text-shadow: 0 0 8px #000;
+    text-shadow: 0 0 8px $color-two;
     margin-top: 30px;
 }
 
 .caja11 p {
 
-    text-shadow: 0 0 8px #000;
+    text-shadow: 0 0 8px $color-two;
 }
 
 .btn {
@@ -114,41 +114,26 @@ strong {
 
 }
 
-/*Preguntas Index*/
-
-.container_1 {
-
-    height: 900px;
-    
-}
-
-.title-preguntas{
-
-    font-size: 40px;
-    text-align: center;
-    color:#73736B;
-    font-weight: bolder;
-    padding: 30px;
-}
 
 /*Testimonios*/
 
 .section-op {
-	display: grid;
-	place-items: center;
-    background-color: #dae5e7bf;	
+    display: grid;
+    place-items: center;
+    background-color: #dae5e7bf;
     height: 90vh;
-    }
+}
 
-.section-header{
+.section-header {
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     text-align: center;
     font-weight: 900;
-    padding-bottom: 25px;
-    color:#000;
+    
+    color: $color-two;
 }
-.section-header:after{
+
+.section-header:after {
 
     content: '';
     height: 3px;
@@ -156,60 +141,72 @@ strong {
     position: absolute;
     bottom: 0;
     left: calc(50% - 100px);
-    background:orange;
+    background: $color-four;
 }
+
 .section-header span {
-	display: block;
-	font-size: 15px;
-    font-weight:300;
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
 }
-.testimonials{
+
+.testimonials {
     max-width: 980px;
     padding: 0 15px 50px;
     margin: 0 auto 45px auto;
 
 }
-.single-item{
-    background: #fff;
+
+.single-item {
+    background: $color-one;
     color: #111;
     padding: 15px;
     margin: 50px 15px;
 }
-.profile{
+
+.profile {
     margin-bottom: 30px;
-    text-align: center;    
+    text-align: center;
 }
+
 .img-area {
-	margin: 0 15px 15px 15px;
+    margin: 0 15px 15px 15px;
 }
+
 .img-area img {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	border: 5px solid orange;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid $color-four;
 }
-.content{
+
+.content {
     font-size: 18px;
 }
+
 .content p {
-	text-align: justify;
+    text-align: justify;
 }
+
 .content p span {
-	font-size: 48px;
-	margin-right: 20px;
-    color: orange;
+    font-size: 48px;
+    margin-right: 20px;
+    color: $color-four;
 }
 
 .bio h4 {
-	font-family: 'Berkshire Swash', cursive;
+    font-family: 'Berkshire Swash', cursive;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
-	background-color: orange;
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: $color-four;
 }
 
 
 
 /*Jumbotron*/
+
 
 .jumbotron {
 
@@ -290,7 +287,7 @@ section {
 
     margin: 15px;
     padding: 10px;
-    text-shadow: 0 1px 1px orange;
+    text-shadow: 0 1px 1px $color-four;
 
 }
 
@@ -307,7 +304,7 @@ section {
 .titulo-equipo {
     text-align: center;
     margin: 20px;
-    color:$color-two;
+    color: $color-two;
     font-size: 35px;
     font-weight: bolder;
 }
@@ -320,7 +317,7 @@ section {
 }
 
 .fa-dog:hover {
-    color: #fff;
+    color: $color-one;
     transform: scale(1.3);
 }
 
@@ -380,7 +377,7 @@ section {
 }
 
 .galeria {
-    border: 2px solid black;
+    border: 2px solid $color-two;
     border-radius: 15px;
     background-position: center;
     background-size: cover;
@@ -400,27 +397,27 @@ section {
 
     height: auto;
     width: 100%;
-    background-color:$color-one;
+    background-color: $color-one;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
     padding: 35px;
-    
+
 }
 
 .cards {
     height: 490px;
     width: 230px;
-    background-color: #fff;
+    background-color: $color-one;
     text-align: center;
     border: 2px solid rgba(255, 166, 0, 0.807);
-    
+
 }
 
 
-.card-img-15{
+.card-img-15 {
     height: 200px;
     background-image: url(./img/visionn.png);
     background-size: auto;
@@ -444,48 +441,50 @@ section {
 
     background-color: $color-one;
     border-radius: 15px;
-    border: 2px solid #000;
+    border: 2px solid $color-two;
 }
 
 /*preguntas frecuentes*/
 
-.accordion{
+.accordion {
 
     padding: 70px 175px;
-    
+
 }
 
-.accordion-item{
+.accordion-item {
 
     padding: 10px;
     border: none;
 
-    
-}
-.accordion-button{
 
-    background-color: orange;
-    
 }
 
-.accordion-body{
+.accordion-button {
+
+    background-color: $color-four;
+
+}
+
+.accordion-body {
     border: 1px solid rgba(255, 166, 0, 0.456);
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid $color-four;
 }
 
 /*maps*/
 
-.map-container{
-  overflow:hidden;
-  position:relative;
-  height:0;
+.map-container {
+    overflow: hidden;
+    position: relative;
+    height: 0;
 }
-.map-container iframe{
-  left:0;
-  top:0;
-  height:650px;
-  width:100%;
-  position:absolute;
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 650px;
+    width: 100%;
+    position: absolute;
 }
 
 
@@ -510,7 +509,7 @@ footer p {
 
     text-align: center;
     padding: 15px 15px;
-    border: 2px solid #fff;
+    border: 2px solid $color-one;
 
 }
 
@@ -539,7 +538,7 @@ footer p {
 
 .fa-brands {
 
-    color:$color-two;
+    color: $color-two;
 
 }
 
@@ -556,14 +555,14 @@ footer p {
 
 @media(min-width:1024px) {
 
-    
-    .cards{
+
+    .cards {
         width: 30%;
         height: 450px;
         border-right: 2px solid rgba(255, 166, 0, 0.807);
-        
+
     }
-    
+
     footer {
         display: flex;
         flex-wrap: wrap;

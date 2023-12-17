@@ -46,12 +46,12 @@ html {
 }
 
 .caja11 h1 {
-  text-shadow: 0 0 8px #000;
+  text-shadow: 0 0 8px black;
   margin-top: 30px;
 }
 
 .caja11 p {
-  text-shadow: 0 0 8px #000;
+  text-shadow: 0 0 8px black;
 }
 
 .btn {
@@ -85,19 +85,6 @@ strong {
   text-align: justify;
 }
 
-/*Preguntas Index*/
-.container_1 {
-  height: 900px;
-}
-
-.title-preguntas {
-  font-size: 40px;
-  text-align: center;
-  color: #73736B;
-  font-weight: bolder;
-  padding: 30px;
-}
-
 /*Testimonios*/
 .section-op {
   display: grid;
@@ -108,11 +95,10 @@ strong {
 
 .section-header {
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   text-align: center;
   font-weight: 900;
-  padding-bottom: 25px;
-  color: #000;
+  color: black;
 }
 
 .section-header:after {
@@ -178,7 +164,8 @@ strong {
   font-family: "Berkshire Swash", cursive;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   background-color: orange;
 }
 
@@ -381,7 +368,7 @@ section {
 .container {
   background-color: #fff;
   border-radius: 15px;
-  border: 2px solid #000;
+  border: 2px solid black;
 }
 
 /*preguntas frecuentes*/
