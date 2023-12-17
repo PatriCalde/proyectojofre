@@ -88,7 +88,6 @@ strong {
 /*Preguntas Index*/
 .container_1 {
   height: 900px;
-  background-color: #DAE5E7;
 }
 
 .title-preguntas {
@@ -100,41 +99,42 @@ strong {
 }
 
 /*Testimonios*/
-section {
+.section-op {
   display: grid;
   place-items: center;
-  background-color: #ec0b0b;
+  background-color: rgba(218, 229, 231, 0.7490196078);
+  height: 90vh;
 }
 
 .section-header {
   position: relative;
   padding-bottom: 10px;
   text-align: center;
-  font-weight: 900px;
+  font-weight: 900;
   padding-bottom: 25px;
-  color: red;
+  color: #000;
 }
 
 .section-header:after {
+  content: "";
   height: 3px;
   width: 200px;
   position: absolute;
   bottom: 0;
   left: calc(50% - 100px);
-  background: blue;
+  background: orange;
 }
 
 .section-header span {
   display: block;
   font-size: 15px;
-  font-weight: 300px;
+  font-weight: 300;
 }
 
 .testimonials {
   max-width: 980px;
   padding: 0 15px 50px;
-  margin: 0 auto 50px auto;
-  height: 350px;
+  margin: 0 auto 45px auto;
 }
 
 .single-item {
@@ -157,7 +157,7 @@ section {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  border: 7px solid orange;
+  border: 5px solid orange;
 }
 
 .content {

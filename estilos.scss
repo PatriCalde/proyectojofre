@@ -119,7 +119,7 @@ strong {
 .container_1 {
 
     height: 900px;
-    background-color: #DAE5E7;
+    
 }
 
 .title-preguntas{
@@ -131,42 +131,43 @@ strong {
     padding: 30px;
 }
 
-
 /*Testimonios*/
 
-section {
+.section-op {
 	display: grid;
 	place-items: center;
-    background-color: #ec0b0b;	
+    background-color: #dae5e7bf;	
+    height: 90vh;
     }
 
 .section-header{
     position: relative;
     padding-bottom: 10px;
     text-align: center;
-    font-weight: 900px;
+    font-weight: 900;
     padding-bottom: 25px;
-    color:red;
+    color:#000;
 }
 .section-header:after{
-    
+
+    content: '';
     height: 3px;
     width: 200px;
     position: absolute;
     bottom: 0;
     left: calc(50% - 100px);
-    background:blue;
+    background:orange;
 }
 .section-header span {
 	display: block;
 	font-size: 15px;
-	font-weight: 300px;
+    font-weight:300;
 }
 .testimonials{
     max-width: 980px;
     padding: 0 15px 50px;
-    margin: 0 auto 50px auto;
-    height: 350px;
+    margin: 0 auto 45px auto;
+
 }
 .single-item{
     background: #fff;
@@ -185,7 +186,7 @@ section {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
-	border: 7px solid orange;
+	border: 5px solid orange;
 }
 .content{
     font-size: 18px;
@@ -205,9 +206,6 @@ section {
 .carousel-control-next-icon, .carousel-control-prev-icon {
 	background-color: orange;
 }
-
-
-
 
 
 
@@ -450,7 +448,9 @@ section {
 }
 
 /*preguntas frecuentes*/
+
 .accordion{
+
     padding: 70px 175px;
     
 }
@@ -459,6 +459,7 @@ section {
 
     padding: 10px;
     border: none;
+
     
 }
 .accordion-button{
