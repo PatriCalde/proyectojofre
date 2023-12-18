@@ -447,7 +447,7 @@ footer p {
     display: flex;
     flex-wrap: wrap;
   }
-  .footer_section2 {
+  .footer_section {
     width: 45%;
   }
 }
