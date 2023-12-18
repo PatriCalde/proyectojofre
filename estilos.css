@@ -23,19 +23,11 @@ html {
   width: 100%;
 }
 
-.navbar a {
-  color: black;
-}
-
+/*.navbar a {
+    color: $color-two;
+}*/
 .nav-link {
   font-size: 20px;
-}
-
-.nav-link:hover {
-  color: rgb(255, 193, 7);
-  font-style: oblique;
-  font-weight: bold;
-  text-decoration: underline;
 }
 
 .caja11 {
@@ -118,11 +110,16 @@ strong {
 }
 
 .testimonials {
-  max-width: 980px;
+  max-width: 1024px;
   padding: 0 15px 50px;
   margin: 0 auto 45px auto;
 }
 
+@media (min-width: 678px) {
+  section .section-op {
+    height: 500px;
+  }
+}
 .single-item {
   background: #fff;
   color: #111;
@@ -412,7 +409,7 @@ footer {
   background-position: center;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
 }
 
 footer p {
@@ -450,7 +447,7 @@ footer p {
     display: flex;
     flex-wrap: wrap;
   }
-  .footer_section {
+  .footer_section2 {
     width: 45%;
   }
 }
@@ -459,6 +456,15 @@ footer p {
     width: 30%;
     height: 450px;
     border-right: 2px solid rgba(255, 166, 0, 0.807);
+  }
+  .navbar a {
+    color: #000 !important;
+  }
+  .nav-link:hover {
+    color: rgb(255, 193, 7) !important;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: underline;
   }
   footer {
     display: flex;
