@@ -224,7 +224,7 @@ strong {
 
 
 .text-black {
-    position: relative;
+    position: absolute;
     animation: mymove 5s infinite;
     width: 100%;
     color: $color-one;
@@ -439,7 +439,7 @@ section {
     background-image: url(/img/dogjum.png);
     background-size: cover;
     background-position: center;
-    padding: 150px;
+    padding: 50px;
 }
 
 .container {
@@ -453,7 +453,7 @@ section {
 
 .accordion {
 
-    padding: 70px 175px;
+    padding: 70px 70px;
 
 }
 
@@ -551,8 +551,7 @@ footer p {
 
     footer {
         display: flex;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;        
         
     }
 
@@ -560,18 +559,22 @@ footer p {
         width: 45%;
 
     }
-       
+    .cards {
+        width: 33%;
+        height: 350px;
+        border-right: 2px solid rgba(255, 166, 0, 0.807);
+
+    }
+       .h3{
+        text-align: center;
+        font-size: 20px;
+       }
 }
 
 @media(min-width:1024px) {
 
 
-    .cards {
-        width: 30%;
-        height: 450px;
-        border-right: 2px solid rgba(255, 166, 0, 0.807);
-
-    }
+    
 
     .navbar a {
         color: #000 !important;
