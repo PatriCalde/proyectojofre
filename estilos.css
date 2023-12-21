@@ -83,11 +83,12 @@ strong {
   place-items: center;
   background-color: rgba(218, 229, 231, 0.7490196078);
   height: auto;
+  padding: 15px;
 }
 
 .section-header {
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   text-align: center;
   font-weight: 900;
   color: black;
