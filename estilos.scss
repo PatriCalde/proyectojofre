@@ -396,6 +396,7 @@ strong {
 
     background-color: $color-one;
     border-radius: 15px;
+    border: 2px solid $color-two
     
 }
 
@@ -540,12 +541,21 @@ footer p {
         text-decoration: underline;
     }
 
+    .cards{
+        width: 30%;
+        height: 450px;
+        border-right: 2px solid rgba(255, 166, 0, 0.807);
+        
+    }
+
+
 
     footer {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
+        height: 500px;
     }
 
 
@@ -554,6 +564,12 @@ footer p {
 
         font-size: 30px;
         color: $color-one;
+        padding: 10px;
+    }
+
+    .footer_section_li{
+        padding: 10px;
+        
     }
 
     .fa-instagram:hover {

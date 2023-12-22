@@ -320,6 +320,7 @@ strong {
 .container {
   background-color: #fff;
   border-radius: 15px;
+  border: 2px solid black;
 }
 
 /*preguntas frecuentes*/
@@ -424,15 +425,25 @@ footer p {
     font-weight: bold;
     text-decoration: underline;
   }
+  .cards {
+    width: 30%;
+    height: 450px;
+    border-right: 2px solid rgba(255, 166, 0, 0.807);
+  }
   footer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    height: 500px;
   }
   .fa-brands {
     font-size: 30px;
     color: #fff;
+    padding: 10px;
+  }
+  .footer_section_li {
+    padding: 10px;
   }
   .fa-instagram:hover {
     color: rgb(240, 5, 177);
